@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body, html {
+  background-color: #282c34;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -19,13 +23,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .content {
   margin-top: 20px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .App-link {
@@ -39,4 +46,97 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.login-title {
+  margin-bottom: 20px;
+}
+
+
+.reg-form {
+  width: 250px;
+}
+
+.switch-link {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.first-symbol {
+  color: #007bff;
+}
+
+.inline-error {
+  font-size: 14px;
+  color: red;
+}
+
+.card {
+  width: 400px !important;
+}
+
+.img-wrapper {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.glyphicon-heart-empty {
+  width: 10px;
+  height: 10px;
+}
+
+.title-pub {
+  display: flex;
+}
+
+.title-pub .title {
+  font-size: 16px;
+  display: flex !important;
+}
+
+.card-text .text-muted {
+  font-size: 14px;
+}
+
+.pub-data {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-body {
+  padding-bottom: 0px !important;
+  flex-direction: column;
+}
+
+.like {
+  cursor: pointer;
+}
+
+.pencil-icon {
+  margin-left: 20px;
+  cursor: pointer;
+  transform: scale(-1, 1);
+}
+
+.count-like {
+  font-size: 16px;
+  padding-left: 6px;
+}
+
+.like-wrapper {
+  display: flex;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.card {
+  margin-bottom: 20px !important;
+}
+
+.form {
+  padding-top: 200px;
 }
