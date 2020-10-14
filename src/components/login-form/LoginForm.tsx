@@ -37,11 +37,11 @@ const LoginForm = () => {
             <div>
                 <Form className='reg-form'>
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Control onChange={loginChange} type="text" placeholder="Login" />
+                        <Form.Control required onChange={loginChange} type="text" placeholder="Login" />
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">
-                        <Form.Control onChange={onChangeInput} type="password" placeholder="Password" />
+                        <Form.Control required onChange={onChangeInput} type="password" placeholder="Password" />
                     </Form.Group>
                     <Button disabled={disableButton} variant="primary" type="submit">
                         Login

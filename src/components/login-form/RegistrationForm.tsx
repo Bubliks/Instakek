@@ -54,15 +54,15 @@ const RegistrationForm = () => {
             <div>
                 <Form className='reg-form'>
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Control onChange={loginChange} type="login" placeholder="Login" />
+                        <Form.Control required onChange={loginChange} type="login" placeholder="Login" />
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">
-                        <Form.Control onChange={onChangeInput} type="password" placeholder="Password" />
+                        <Form.Control required onChange={onChangeInput} type="password" placeholder="Password" />
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">
-                        <Form.Control onChange={onChangeSeconfInput} disabled={disableRepInput} type="password" placeholder="repeat password" />
+                        <Form.Control required onChange={onChangeSeconfInput} disabled={disableRepInput} type="password" placeholder="repeat password" />
                         {
                             !disableRepInput && (
                             (firstInputValue.length === secondInputValue.length &&
