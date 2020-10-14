@@ -35,7 +35,6 @@ const CreatePublication: React.FC = () => {
 
 
 const App: React.FC = () => {
-
   return (
       <BrowserRouter>
           <div className="App">
