@@ -140,3 +140,100 @@ body, html {
 .form {
   padding-top: 200px;
 }
+
+.comment-wrapper {
+  display: flex;
+}
+
+.comment-wrapper .title {
+  font-size: 14px;
+}
+
+.comment-wrapper .comment-avatar {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
+
+.comment-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.title-comments {
+  font-size: 14px;
+}
+
+hr {
+  margin: 0;
+}
+
+.input-comment {
+  background: #282c34
+}
+
+.input-group {
+  width: 250px !important;
+}
+
+.input-group input {
+  border-radius: 50px;
+}
+
+.commenting-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commenting-input svg {
+  margin-bottom: 1.5rem !important;
+  margin-left: 0.5rem !important;
+  cursor: pointer;
+}
+
+.comment-icon {
+  padding-left: 10px;
+}
+
+.profile-wrapper {
+  display: flex;
+}
+
+.publication_new {
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.login-title {
+  margin-bottom: 70px;
+}
+
+.new-pub-button {
+  margin-top: 30px;
+}
+
+.reg-form-pub {
+  width: 340px;
+  margin: 30px;
+}
+
+.text-area {
+  width: 100%;
+  background: #343a40!important;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+}
+
+.table-style td, th {
+  color: white;
+}
+
+.cloud {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}

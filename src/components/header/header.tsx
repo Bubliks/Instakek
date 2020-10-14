@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar'
 const Header = () => {
     return (
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home"><span className='first-symbol'>I</span>nstagram</Navbar.Brand>
+            <Navbar.Brand href="/"><span className='first-symbol'>I</span>nstagram</Navbar.Brand>
         </Navbar>
     );
 };
